@@ -1,0 +1,77 @@
+.animation-div{
+    width: 100px;
+    height: 100px;
+    margin: 20px auto ;
+    background-color: red;
+    animation-name: animacao;
+    animation-duration: 1000ms;
+}
+
+@keyframes animacao {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+.animation-div2 {
+    width: 50px;
+    height: 100px;
+    margin: 20px 20px ;
+    background-color: black;
+    animation-name: animation2;
+    animation-duration: 6s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes animation2 {
+    0% {}
+    30% {width: 100px;}
+    60% {background-color: red;}
+    80% {left: 100px; background-color: blue;}
+    100% {height: 50px; left: 0px; background-color: black;}   
+}
+
+.animation-div3 {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    position:relative;
+    animation-name: animation3;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+@keyframes animation3{
+    from {left: 0;} /*se não colocar a definição inicial a transição ocorre de forma abrupta*/
+    to {left: 200px; background-color: green;}
+}
+
+.div4 {
+    width: 70px;
+    height: 60px;
+    margin: 20px;
+    background-color: yellow;
+    position:relative;
+    animation-name: animacao4;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacao4 {
+    from {left: 0;}
+    to {left: 500px}
+}
+
+.animation-div4{
+    animation-timing-function: linear;
+}
+.animation-div5{
+    animation-timing-function: ease;
+}
+.animation-div6{
+    animation-timing-function: ease-in;
+}
+.animation-div7{
+    animation-timing-function: ease-out;
+}
+.animation-div8{
+    animation-timing-function: ease-in-out;
+}
