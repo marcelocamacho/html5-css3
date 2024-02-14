@@ -94,3 +94,31 @@
     position:relative;
     animation: animacao5 8s ease-out 4s infinite;
 }
+.btn{
+    display: block;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 25px;
+    width: 150px;
+    height: 75px;
+    color: #FFF;
+    background-color: #333;
+    text-transform: uppercase;
+    border: 1px solid #333;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.btn:hover {
+    color: #333;
+    background-color: white;
+}
+.transition{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 4s;
+}
+.transition:hover {
+    width: 200px;
+}
