@@ -53,3 +53,25 @@
 .calc4 {
   width: calc(50% + 80px);
 }
+
+.gradient-box {
+  width: 500px;
+  height: 200px;
+  position: relative;
+  margin: 20px;
+}
+.gradient1 {
+  background-image: linear-gradient(purple, blue);
+}
+.gradient2 {
+  background-image: linear-gradient(to right, blue, yellow);
+}
+.gradient3 {
+  background-image: linear-gradient(to top, yellow, red);
+}
+.gradient3 {
+  background-image: linear-gradient(to top right, red, black);
+}
+.gradient4 {
+  background-image: linear-gradient(to bottom left, yellow, red, purple);
+}
