@@ -75,3 +75,22 @@
 .animation-div8{
     animation-timing-function: ease-in-out;
 }
+
+/* Exemplo de shorthand*/
+@keyframes animacao5{
+    0% {left: 0px;}
+    25% {left: 20px; background-color: blue;}
+    60% {left: 100px; background-color: orange;}
+    100% {right: 200px; background-color: red;}
+}
+/* Exemplo de shorthand*/
+/* shorthand - nome, duração, timing-function, delay, iteration*/
+#animation-div9 {
+    background-color: darkblue;
+    width: 100px;
+    height: 50px;
+    color: white;
+    padding: auto auto;
+    position:relative;
+    animation: animacao5 8s ease-out 4s infinite;
+}
