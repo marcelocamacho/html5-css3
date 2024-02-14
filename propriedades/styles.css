@@ -1,0 +1,55 @@
+.btn{
+  display: block;
+  position: relative;
+  padding: 10px;
+  margin-bottom: 25px;
+  width: 150px;
+  height: 75px;
+  color: #FFF;
+  background-color: #333;
+  text-transform: uppercase;
+  border: 1px solid #333;
+  cursor: pointer;
+  font-weight: 700;
+  transition: 0.3s;
+}
+.btn:hover {
+  color: #333;
+  background-color: white;
+}
+.transition{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: 4s;
+}
+.transition:hover {
+  width: 200px;
+}
+/* proriedade calc */ 
+.div-calc {
+  height: 250px;
+  width: 500px;
+  position:relative;
+  margin:20px;
+  background-color: #DDD;
+  border: 1px solid red;
+}
+.innerdiv-calc {
+  height: 50px;
+  margin: 10px;
+  position: relative;
+  background-color: red;
+}
+.calc1 {
+  width: calc(50% + 50px);
+}
+.calc2 {
+  width: calc(50% + 60px);
+}
+.calc3 {
+  width: calc(50% + 70px);
+}
+.calc4 {
+  width: calc(50% + 80px);
+}
