@@ -75,3 +75,12 @@
 .gradient4 {
   background-image: linear-gradient(to bottom left, yellow, red, purple);
 }
+.gradient5 {
+  background-image: radial-gradient(purple,yellow,blue);
+}
+.gradient6 {
+  background-image: radial-gradient(purple 40%,blue 20%,yellow);
+}
+.gradient7 {
+  background-image: radial-gradient(circle,purple 40%,blue 20%,yellow);
+}
