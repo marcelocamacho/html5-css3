@@ -1,0 +1,36 @@
+/*
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 300 to 800
+// <width>: Use a value from 75 to 100
+*/
+.open-sans-leve {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.open-sans-medio {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 87.5;
+}
+
+.open-sans-grande {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+html {
+  font-family: 'Open sans', 'sans-serif';
+}
+h1 {
+  font-size: xx-large;
+}
