@@ -84,3 +84,14 @@
 .gradient7 {
   background-image: radial-gradient(circle,purple 40%,blue 20%,yellow);
 }
+@font-face {
+  font-family: 'MinhaFonte';
+  src: url('fonts/DancingScript-VariableFont_wght.ttf');
+}
+p {
+  font-size: xx-large;
+}
+.fontface{
+  font-size: xx-large;
+  font-family: 'MinhaFonte';
+}
